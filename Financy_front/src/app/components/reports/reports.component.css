@@ -1,0 +1,104 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+  
+  .login-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .error-message {
+    margin-top: 15px;
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-primary:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-button {
+    background: none;
+    border: none;
+    color:  #007bff;;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
+    text-decoration: none; /* إزالة الخط السفلي */
+  }
+  
+  .register-button:hover {
+    color: #007bff; /* لون أزرق أغمق عند التمرير */
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
